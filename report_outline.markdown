@@ -280,7 +280,7 @@ Comparing the best versions of the 3 models
 
 
 
-Potential Points of Criticism
+Shortcomings
 ================================================================================
 
 
