@@ -110,15 +110,10 @@ MobileNet V3
     other neural network designs that the paper is alluding to.
 
 
-Network MACs and Parameters
---------------------------------------------------------------------------------
 
+Proposed Approach
+================================================================================
 
--   **WARNING**: `thop` does not account for the bottleneck MACs and parameters,
-    which take up a huge chunk of the number of parameters and the amount of
-    MACs and trainable parameters we have. We'll need to create a version of the
-    code that is virtually identical but just does not incorporate the classes
-    as directly
 
 
 Dataset
@@ -190,11 +185,6 @@ Preprocessing
     -   For validation,test, want to be consistent and crop, but only a
         deterministic center crop to avoid introducing variance in results from
         random cropping
-
-
-
-Proposed Approach
-================================================================================
 
 
 Modifying ResNet V2
