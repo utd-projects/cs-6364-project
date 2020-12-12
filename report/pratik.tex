@@ -1,0 +1,262 @@
+\documentclass[conference]{IEEEtran}
+% \usepackage{silence}
+% \WarningFilter[newline]{latex}{Underfull}
+
+\usepackage{booktabs}
+\usepackage{float}
+\usepackage{multirow}
+
+\usepackage{ifpdf}
+% Enable correct encoding
+\ifpdf{}
+    \usepackage[utf8]{inputenc}
+\fi{}
+\usepackage[T1]{fontenc}
+
+\usepackage[pdftex]{hyperref} % Enable hyperlinks
+% \hypersetup{hidelinks}
+
+% Citations Package
+\usepackage[
+    backend=biber,
+    style=ieee
+]{biblatex}
+\addbibresource{citations.bib}
+
+\title{Deep Learning’s Potential --- Differentiating Between Images of Concepts
+and Tangible Objects}
+
+
+\author{%
+    \IEEEauthorblockN{Pratik Bhusal}
+    \IEEEauthorblockA{%
+        pratik.bhusal@utdallas.edu\\
+        \today
+    }\\
+
+    \IEEEauthorblockN{Max Xie}
+    \IEEEauthorblockA{%
+        max.xie@utdallas.edu\\
+        \today
+    }
+}
+
+\usepackage{graphicx}
+
+
+% 2. Report Presentation (40%): % {{{
+
+
+%     1. Is the format correct? IEEE two-column style format, with the font name Times
+%     New Roman and size 10.
+
+%     2. Are there obvious grammatical errors or incomplete sentences?
+
+%     3. Are there required sections missing? Each report should include title,
+%     abstract, introduction, related work, one or more technical sections, one
+%     section about empirical analysis, conclusion, and references.
+
+%     4. Does the report contain plagiarism content?
+
+%     5. Is the proposed AI algorithms and/or models described in sufficient detail?
+
+%     6. What is an overall evaluation of the presentation?
+
+%     7. Is there a clear description about the feature extraction process? Are
+%     the features clearly described?
+
+% % }}}
+
+% 3. Technical content (50%): {{{
+
+%     1. Does the implementation code include plagiarism content?
+
+%     2. Is the code uploaded?
+
+%     3. Is there any exploratory data analysis?
+
+%     4. Are the research problem and the main tasks clearly described? The
+%     students in one team should focus on separate tasks. If some students
+%     focused on the same tasks, the differences of their contributions should be
+%     described clearly.
+
+%     5. What is the overall level of efforts for the main tasks. Each report
+%     should clearly describe which parts of the code were written by the author.
+%     The load of coding can be measured by the the time that is required to
+%     implement and debug the code. This time will be estimated by the instructor
+%     and TA based on an overall evaluation of the code.  If the load of coding is
+%     too low (e.g., 2 hours), the level of efforts will be low (e.g, 0.2). If the
+%     load of coding is high (e.g., 50 hours), the level of efforts will be high
+%     (e.g., 0.9).
+
+%     6. What is the level of originality and creativity about the proposed work?
+
+%         Examples of high originality and creativity are: (1) The proposed work
+%         replicates the results of an existing paper and conducts some new
+%         empirical analysis not reported in the paper, such as empirical analysis
+%         based on new evaluation metrics (e.g., area under curve, area under
+%         precision-recall curve) and new datasets not considered in the paper.
+%         (2) The proposed work conducts an empirical comparison between the
+%         methods proposed in several different papers. (3) The proposed work
+%         develops new algorithms or new neural network architectures and
+%         demonstrates the effectiveness and/or efficiency of the proposed
+%         techniques, in comparison with some baseline methods in real-world
+%         datasets. Algorithms and neural network architectures modified from
+%         existing ones are also considered as new. (4) The proposed work presents
+%         novel applications of AI models that have not been studied in the
+%         current literature. (5) The proposed work develops new algorithms and/or
+%         models for Kaggle competitions and demonstrates the effectiveness and/or
+%         efficiency of the proposed techniques on the kaggle datasets, in
+%         comparison with some baseline methods.
+
+%         Examples of low/medium originality and creativity: (1) The proposed work
+%         only replicates the results of an existing paper but does not conduct
+%         any new empirical analysis. (2) The proposed work implements classic AI
+%         models (e.g., logistic regression, linear regression, bayesian neural
+%         networks, support vector machines) for classic problems (e.g.,
+%         classification, regression) on some benchmark datasets.
+
+% 7. Is there a detailed discussion about how the hyper parameters were turned?
+% Have the finalized hyperparameters of all the AI models been reported?
+
+% 8. Are the empirical results discussed in sufficient detail?
+
+% % }}}
+
+\begin{document}
+\maketitle
+
+
+
+\begin{abstract} % {{{
+
+% TODO: Write this section last. A reasonable way to write an abstract is to
+% write a 1 sentence highlight of each of the sections in the paper, then go
+% back and smooth it out so it flows cleanly and makes the key points you want.
+% <2020-04-09, Pratik Bhusal>
+
+Hello World
+\end{abstract} % }}}
+
+
+
+\section{Introduction} % {{{
+
+
+
+% }}}
+
+
+
+\section{Motivation} % {{{
+
+% }}}
+
+
+
+\section{Related Works} % {{{
+
+
+\subsection{ResNet V2 (ResNet-50)}
+
+
+\subsection{MobileNet V2}
+
+
+\subsection{MobileNet V3}
+
+
+% }}}
+
+
+
+\section{Proposed Approach} % {{{
+
+
+\subsection{Dataset}
+
+
+\subsection{Pre-Processing}
+
+\subsubsection{Stratified Sampling}
+
+
+\subsubsection{Classification Relabling}
+
+
+\subsubsection{Image Cropping}
+
+
+\subsubsection{Image Normalization}
+
+\subsection{Modifying ResNet V2}
+
+
+\subsection{Modifying MobileNet V2}
+
+
+\subsection{Modifying MobileNet V3}
+
+% }}}
+
+
+
+\section{Results} % {{{
+
+
+\subsection{Modifying ResNet V2}
+
+
+\subsection{Modifying MobileNet V2}
+
+
+\subsection{Modifying MobileNet V3}
+
+
+\subsection{Network Comparison}
+
+
+% }}}
+
+
+\section{Shortcomings} % {{{
+
+
+\subsection{Dataset}
+
+
+\subsection{Our representation of ``concepts''}
+
+
+% }}}
+
+
+\section{Future Endeavors} % {{{
+
+
+\subsection{Alternative Network Architectures}
+
+
+\subsection{Colored Datasets}
+
+
+% }}}
+
+
+
+\section{Conclusion} % {{{
+
+% TODO: Write 1 – 2 sentences on each of motivation, design, training and
+% implementation. Do this after putting together the other sections but before
+% the abstract. <2020-04-09, Pratik Bhusal>
+
+
+% }}}
+
+
+
+% {\hbadness=10000\printbibliography}
+
+\appendix
+
+\end{document}
